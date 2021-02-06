@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.4b3b3c37.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.e682400d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.e682400d.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.876eeb0c.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.876eeb0c.js.map",
+    "static/js/2.0c1c7561.chunk.js": "/React-Portfolio/static/js/2.0c1c7561.chunk.js",
+    "static/js/2.0c1c7561.chunk.js.map": "/React-Portfolio/static/js/2.0c1c7561.chunk.js.map",
+    "static/js/3.7b81ed85.chunk.js": "/React-Portfolio/static/js/3.7b81ed85.chunk.js",
+    "static/js/3.7b81ed85.chunk.js.map": "/React-Portfolio/static/js/3.7b81ed85.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.4b3b3c37.chunk.css.map": "/React-Portfolio/static/css/main.4b3b3c37.chunk.css.map",
+    "static/js/2.0c1c7561.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.0c1c7561.chunk.js.LICENSE.txt",
+    "static/media/css-3.55127547.png": "/React-Portfolio/static/media/css-3.55127547.png",
+    "static/media/examplecv.844c249f.pdf": "/React-Portfolio/static/media/examplecv.844c249f.pdf",
+    "static/media/express-js.915b8962.png": "/React-Portfolio/static/media/express-js.915b8962.png",
+    "static/media/gymshark-logo.b70b926c.png": "/React-Portfolio/static/media/gymshark-logo.b70b926c.png",
+    "static/media/html5.76db5e68.png": "/React-Portfolio/static/media/html5.76db5e68.png",
+    "static/media/js-file.3d09f2e4.png": "/React-Portfolio/static/media/js-file.3d09f2e4.png",
+    "static/media/Home.css": "/React-Portfolio/static/media/laptopLandingPage.e620cabd.jpg",
+    "static/media/memory-game-screenshot.916adb8a.png": "/React-Portfolio/static/media/memory-game-screenshot.916adb8a.png",
+    "static/media/react.20ec11c4.png": "/React-Portfolio/static/media/react.20ec11c4.png",
+    "static/media/smart-picture.d86eb321.jpg": "/React-Portfolio/static/media/smart-picture.d86eb321.jpg",
+    "static/media/south-logo.84468707.png": "/React-Portfolio/static/media/south-logo.84468707.png",
+    "static/media/travel-tracker-screenshot.2e5d494d.png": "/React-Portfolio/static/media/travel-tracker-screenshot.2e5d494d.png",
+    "static/media/warm-down-studios-screenshot.aa1a746f.png": "/React-Portfolio/static/media/warm-down-studios-screenshot.aa1a746f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.876eeb0c.js",
+    "static/js/2.0c1c7561.chunk.js",
+    "static/css/main.4b3b3c37.chunk.css",
+    "static/js/main.e682400d.chunk.js"
+  ]
+}
