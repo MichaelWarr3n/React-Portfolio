@@ -21,13 +21,13 @@ function Projects({ buttonClick }) {
             <Router>
                 <div className="projectContainer">
                     <div className="projectSelectors">
-                        <Link style={navStyle} onClick={() => handleProjectClick('memory-game')} className={"projectSelector bold " + (activeProject === 'memory-game' ? 'activeProject' : '')} to='/Portfolio/projects/memory-game'>
+                        <Link style={navStyle} onClick={() => handleProjectClick('memory-game')} className={"projectSelector bold " + (activeProject === 'memory-game' ? 'activeProject' : '')} to='/React-Portfolio/projects/memory-game'>
                             <p>Memory Game</p>
                         </Link>
-                        <Link style={navStyle} onClick={() => handleProjectClick('travel-planner')} className={"projectSelector bold " + (activeProject === 'travel-planner' ? 'activeProject' : '')} to='/Portfolio/projects/travel-planner'>
+                        <Link style={navStyle} onClick={() => handleProjectClick('travel-planner')} className={"projectSelector bold " + (activeProject === 'travel-planner' ? 'activeProject' : '')} to='/React-Portfolio/projects/travel-planner'>
                             <p>Travel Planner</p>
                         </Link>
-                        <Link style={navStyle} onClick={() => handleProjectClick('warm-down-studio')} className={"projectSelector bold " + (activeProject === 'warm-down-studio' ? 'activeProject' : '')} to='/Portfolio/projects/warm-down-studio'>
+                        <Link style={navStyle} onClick={() => handleProjectClick('warm-down-studio')} className={"projectSelector bold " + (activeProject === 'warm-down-studio' ? 'activeProject' : '')} to='/React-Portfolio/projects/warm-down-studio'>
                             <p>Warm Down Studios</p>
                         </Link>
                     </div>
@@ -38,9 +38,9 @@ function Projects({ buttonClick }) {
                             <TransitionGroup>
                                 <CSSTransition timeout={800} classNames='project' key={location.key}>
                                     <Switch location={location}>
-                                        <Route path="/Portfolio/projects/memory-game"><MemoryGame /></Route>
-                                        <Route path="/Portfolio/projects/travel-planner"><TravelPlanner /></Route>
-                                        <Route path="/Portfolio/projects/warm-down-studio"><WarmDownStudio /></Route>
+                                        <Route path="/React-Portfolio/projects/memory-game"><MemoryGame /></Route>
+                                        <Route path="/React-Portfolio/projects/travel-planner"><TravelPlanner /></Route>
+                                        <Route path="/React-Portfolio/projects/warm-down-studio"><WarmDownStudio /></Route>
                                     </Switch>
                                 </CSSTransition>
                             </TransitionGroup>
@@ -49,7 +49,7 @@ function Projects({ buttonClick }) {
                 </div>
             </Router>
             <div className="projectButtonContainer">
-                <Link to='/Portfolio/experience' style={{ textDecoration: 'none' }}>
+                <Link to='/React-Portfolio/experience' style={{ textDecoration: 'none' }}>
                     <div className="fadeButton fadeButtonProject bold" onClick={() => buttonClick('experience')}> My experience &gt; </div>
                 </Link>
             </div>

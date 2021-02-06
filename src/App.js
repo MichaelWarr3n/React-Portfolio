@@ -26,12 +26,12 @@ function App() {
           <TransitionGroup>
           <CSSTransition timeout={800} classNames='item' key={location.key}>
             <Switch location={location}>
-            <Route path='/Portfolio' exact><Home buttonClick={handleNavClick} /></Route>
-            <Route path='/Portfolio/about'><About buttonClick={handleNavClick} /></Route>
-            <Route path='/Portfolio/skills'><Skills buttonClick={handleNavClick} /></Route>
-            <Route path='/Portfolio/projects'><Projects buttonClick={handleNavClick} /></Route>
-            <Route path='/Portfolio/experience'><Experience buttonClick={handleNavClick} /></Route>
-            <Route path='/Portfolio/contact'><Contact /></Route>
+            <Route path='/React-Portfolio' exact><Home buttonClick={handleNavClick} /></Route>
+            <Route path='/React-Portfolio/about'><About buttonClick={handleNavClick} /></Route>
+            <Route path='/React-Portfolio/skills'><Skills buttonClick={handleNavClick} /></Route>
+            <Route path='/React-Portfolio/projects'><Projects buttonClick={handleNavClick} /></Route>
+            <Route path='/React-Portfolio/experience'><Experience buttonClick={handleNavClick} /></Route>
+            <Route path='/React-Portfolio/contact'><Contact /></Route>
           </Switch>
         </CSSTransition>
       </TransitionGroup>

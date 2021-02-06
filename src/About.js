@@ -20,7 +20,7 @@ function About({buttonClick}) {
                     </p>
                     <div className="aboutButtonContainer">
                         <a href='./examplecv.pdf' target='_blank' style={{ textDecoration: 'none' }}><div className="fadeButton fadeButtonAboutCv bold">CV</div></a>
-                        <Link to='/Portfolio/skills' style={{ textDecoration: 'none' }}><div className="fadeButton fadeButtonAbout bold" onClick={() => buttonClick('skills')}> My skills &gt; </div></Link>
+                        <Link to='/React-Portfolio/skills' style={{ textDecoration: 'none' }}><div className="fadeButton fadeButtonAbout bold" onClick={() => buttonClick('skills')}> My skills &gt; </div></Link>
                     </div>
                 </span>
             </div>
