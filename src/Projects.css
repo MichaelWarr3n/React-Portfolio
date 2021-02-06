@@ -1,0 +1,190 @@
+.projectContainer, .previewContainer {
+    width: 50vw;
+    height: 72vh;
+    display: inline-flex;
+}
+
+.previewContainer {
+    float: right;
+}
+
+.projectSelectors {
+    height: 60vh;
+    width: 40vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    background-color: #6e6e6e;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.projectSelector {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+.projectSelector:hover {
+    background-color: #000;
+    color: white;
+}
+
+.activeProject {
+    background-color: #000;
+    color: white;
+    border-radius: 0px;
+}
+
+.permanentRoute {
+    margin-right: 10vw;
+    margin-top: 10vh;
+    height: 60vh;
+    width: 40vw;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.projectButtonContainer {
+    margin-top: 2vh;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.project-enter {
+    opacity: 0;
+}
+.project-enter-active {
+    opacity: 1;
+    transition: opacity 600ms ease-in 200ms;
+}
+.project-exit {
+    opacity: 1;
+}
+.project-exit-active {
+    opacity: 0;
+    transition: opacity 200ms ease-in;
+}
+
+/* ------ PROJECT PREVIEW STYLING ------ */
+
+.projectPreview {
+    height: 60vh;
+    width: 40vw;
+    position: absolute;
+    left: 50vw;
+    top: 10vh;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectScreenshotContainer {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.projectTextContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.normalButtonContainer {
+    height: auto;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.projectSiteButton {
+    width: 80%;
+    padding: 6px 5px;
+}
+
+.projectSiteButton:hover {
+    border: #db2525 1px solid;
+    padding: 5px;
+}
+
+.projectText {
+    margin: 5px 5%;
+    font-size: 14px;
+}
+
+.projectScreenshot {
+    width: 80%;
+}
+
+@media screen and (max-width: 960px) {
+
+    .projectSelector {
+        font-size: 14px;
+    }
+
+    /* ------ PROJECT PREVIEW STYLING ------ */
+
+    .normalButtonContainer {
+        margin-bottom: 5px;
+    }
+
+    .projectText {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .projectSelector {
+        font-size: 12px;
+    }
+
+    /* ------ PROJECT PREVIEW STYLING ------ */
+
+    .projectText {
+        font-size: 10px;
+    }
+
+    .projectTextContainer {
+        margin: 0;
+    }
+
+    .projectScreenshotContainer {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .projectSiteButton {
+        width: 80%;
+        padding: 3px 2px;
+    }
+    
+    .projectSiteButton:hover {
+        border: #db2525 1px solid;
+        padding: 2px;
+    }
+
+}

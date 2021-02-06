@@ -1,0 +1,64 @@
+.contactPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactContainer {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactIconText {
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.contactIconText:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 40px white;
+}
+
+.contactIcon {
+    width: 50%;
+}
+
+.contactText {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.anchorReset {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+
+    .contactContainer {
+        flex-direction: column;
+    }
+
+    .contactIcon {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .contactText {
+        font-size: 12px;
+    }
+
+}

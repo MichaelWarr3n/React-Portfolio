@@ -1,0 +1,101 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vh;
+    color: black;
+    background-image: linear-gradient(180deg, #6e6e6e 0%, black 100%);
+  }
+  
+  .navOptions {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+    color: white;
+  }
+  
+  .notActive {
+    color: white;
+    padding: 10px;
+  }
+  
+  .notActive:hover {
+    border-bottom: 1px solid #db2525;
+    padding-bottom: 9px;
+  }
+  
+  .active {
+    color: #db2525;
+    border-bottom: 2px solid #db2525;
+    padding: 10px;
+    padding-bottom: 8px;
+  }
+  
+  .logoText {
+    color: black;
+    font-size: 2rem;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+
+  .burgerIcon {
+    display: none;
+  }
+
+  @media screen and (max-width: 960px) {
+
+    .navOptions {
+      flex-direction: column;
+      width: 100vw;
+      height: 86vh;
+      position: absolute;
+      top: 14vh;
+      left: -100%;
+      transition: all 0.5s ease;
+      z-index: 1000;
+      margin-right: 0;
+    }
+  
+    .activeNav {
+      background-color: grey;
+      left: 0;
+      transition: all 0.5s ease;
+    }
+
+    .navOption {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 80%;
+      height: 15%;
+    }
+
+    .notActive {
+      padding: 0;
+    }
+    
+    .active {
+      padding: 0;
+    }
+
+    .burgerIcon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20vw;
+      height: 100%;
+      cursor: pointer;
+    }
+
+  }

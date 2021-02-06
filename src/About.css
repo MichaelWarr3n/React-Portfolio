@@ -1,0 +1,92 @@
+.aboutPage {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutTextContainer {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer {
+    height: 100%;
+    width: auto;
+}
+
+.imageMe {
+    width: auto;
+    height: 100%;
+}
+
+.aboutTextSection {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.aboutButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 6vh;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 960px) {
+
+    .aboutPage{
+        flex-direction: column;
+    }
+
+    .imageContainer {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .imageMe {
+        border-radius: 50%;
+    }
+
+    .aboutTextContainer {
+        margin-top: 5%;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .aboutText {
+        font-size: 10px;
+    }
+
+    .imageContainer {
+        height: 20%;
+    }
+
+    .aboutTextContainer {
+        height: auto;
+    }
+
+    .aboutButtonContainer {
+        width: 80vw;
+    }
+
+}

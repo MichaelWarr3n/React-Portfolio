@@ -1,0 +1,226 @@
+.timelinePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timelineContainer {
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.timelineLinesContainer {
+    height: 20vh;
+}
+
+.timeline {
+    width: 100%;
+    height: 0.5vh;
+    margin-top: 8vh;
+    background-color: white;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timelineDot {
+    border-radius: 50%;
+    background-color: #db2525;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.longLineContainer, .shortLineContainer {
+    width: 2vw;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 14vh;
+}
+
+.shortLineContainer {
+    height: 12vh;
+    top: 8vh;
+}
+
+.longLine, .shortLine {
+    width: 10%;
+    height: 100%;
+    background-color: white;
+}
+
+.textboxContainer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timelineSection {
+    height: 30vh;
+    width: 24vw;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstTimelineSection, .thirdTimelineSection {
+    margin-top: 16vh;
+}
+
+.secondTimelineSection, .fourthTimelineSection {
+    margin-top: 4vh;
+}
+
+.firstTimelineSection {
+    position: relative;
+    right: 5vw;
+}
+
+.secondTimelineSection {
+    position: relative;
+    right: 1.25vw;
+}
+
+.thirdTimelineSection {
+    position: relative;
+    left: 1.25vw;
+}
+
+.fourthTimelineSection {
+    position: relative;
+    left: 5vw;
+}
+
+.timelineText {
+    font-size: 12px;
+    margin: 0 5%;
+}
+
+.timelineIcon {
+    width: 40%;
+    margin: 5%;
+}
+
+@media screen and (max-width: 960px) {
+
+    .timelineContainer {
+        width: 100vw;
+        height: 80%;
+        flex-direction: row-reverse;
+    }
+
+    .timelineLinesContainer {
+        height: 100%;
+        width: 32.5vw;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .timeline {
+        width: 0.5vw;
+        height: 80%;
+        margin-top: 0;
+        margin-right: 6vw;
+        flex-direction: column;
+    }
+
+    .timelineDot {
+        height: 12px;
+        width: 12px;
+        flex-direction: row-reverse;
+    }
+
+    .longLineContainer, .shortLineContainer {
+        width: 24vw;
+        height: 2vh;
+        flex-direction: row-reverse;
+        align-items: center;
+        right: 14vw;
+        top: 0;
+    }
+
+    .longLine, .shortLine {
+        width: 24vw;
+        height: 10%;
+    }
+
+    .textboxContainer {
+        width: 67.5vw;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 2vw;
+    }
+
+    .timelineSection {
+        height: 17vh;
+        width: 60vw;
+    }
+
+    .firstTimelineSection, .thirdTimelineSection {
+        margin-top: 0;
+    }
+    
+    .secondTimelineSection, .fourthTimelineSection {
+        margin-top: 0;
+    }
+
+    .firstTimelineSection {
+        right: 0;
+        bottom: 5vh;
+    }
+    
+    .secondTimelineSection {
+        right: 0;
+        bottom: 3vh;
+    }
+    
+    .thirdTimelineSection {
+        left: 0;
+        bottom: 1vh;
+    }
+    
+    .fourthTimelineSection {
+        left: 0;
+        top: 1vh;
+    }
+
+    .timelineText {
+        font-size: 10px;
+    }
+    
+    .timelineIcon {
+        width: auto;
+        height: 10%;
+        margin: 2%;
+    }
+
+    .fadeButtonExperienceMobile {
+        position: absolute;
+        top: 79vh;
+        width: 80vw;
+        left: 10vw;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .timelineText {
+        font-size: 8px;
+    }
+
+}

@@ -1,0 +1,144 @@
+.skillIcon {
+    height: 11vh;
+    animation: shrink 200ms linear;
+    animation-fill-mode: both;
+}
+
+.skillLabel {
+    color: white;
+    margin-left: 2vw;
+}
+
+.skillIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+    width: 90%;
+}
+
+.horizontalFlex {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.skillIconLabel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.skillPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillIconLabel:hover {
+    box-shadow: 0px 0px 40px white;
+}
+
+.skillIconLabel:hover img {
+    animation: enlarge 200ms linear;
+    animation-fill-mode: both;
+}
+
+.meter { 
+    height: 5px;
+    width: 30vw;
+    background: #f3efe6;
+    overflow: hidden;
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+.progress {
+    width: 0%;
+    background-color: #db2525;
+    animation: progressBar 2s ease-in-out 600ms;
+    animation-fill-mode: forwards;
+}
+
+.htmlWidth, .cssWidth {
+    width: 90%;
+}
+
+.jsWidth {
+    width: 80%;
+}
+
+.reactWidth {
+    width: 70%;
+}
+
+.nodeWidth {
+    width: 40%;
+}
+
+@keyframes progressBar {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@-webkit-keyframes progressBar {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@-moz-keyframes progressBar {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes enlarge{
+    from { height: 11vh; margin-bottom: 3vh; }
+    to   { height: 12vh; margin-bottom: 2vh; }
+}
+
+@-moz-keyframes enlarge{
+    from { height: 11vh; margin-bottom: 3vh; }
+    to   { height: 12vh; margin-bottom: 2vh; }
+}
+
+@-webkit-keyframes enlarge{
+    from { height: 11vh; margin-bottom: 3vh; }
+    to   { height: 12vh; margin-bottom: 2vh; }
+}
+
+@keyframes shrink{
+    from { height: 12vh; margin-bottom: 2vh; }
+    to   { height: 11vh; margin-bottom: 3vh; }
+}
+
+@-moz-keyframes shrink{
+    from { height: 12vh; margin-bottom: 2vh; }
+    to   { height: 11vh; margin-bottom: 3vh; }
+}
+
+@-webkit-keyframes shrink{
+    from { height: 12vh; margin-bottom: 2vh; }
+    to   { height: 11vh; margin-bottom: 3vh; }
+}
+
+@media screen and (max-width: 960px) {
+
+    .skillIcon {
+        height: 6vh;
+        width: auto;
+        animation: none;
+    }
+
+    .skillIconLabel:hover img {
+        animation: none;
+    }
+
+    .skillIconLabel:hover {
+        box-shadow: none;
+    }
+
+}

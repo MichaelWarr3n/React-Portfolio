@@ -1,0 +1,65 @@
+.homepageContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer {
+    width: 60%;
+    height: 80%;
+}
+
+.homepage {
+    width: 100%;
+    height: 100%;
+    background-image: url('./laptopLandingPage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.homeText {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    width: 40%;
+}
+
+.cursor{
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink{
+    from,to{color:transparent}50%{color:rgb(255, 255, 255)}
+}
+
+@-moz-keyframes blink{
+    from,to{color:transparent}50%{color:rgb(255, 255, 255)}
+}
+
+@-webkit-keyframes blink{
+    from,to{color:transparent}50%{color:rgb(255, 255, 255)}
+}
+
+@media screen and (max-width: 960px) {
+
+    .bannerContainer {
+        width: 60%;
+        height: 50%;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .bannerContainer {
+        width: 50%;
+        height: 30%;
+    }
+
+}
