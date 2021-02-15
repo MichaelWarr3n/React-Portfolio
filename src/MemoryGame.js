@@ -9,7 +9,7 @@ function MemoryGame() {
                 <img src={screenshot} className="projectScreenshot" />
             </div>
             <div className="projectTextContainer">
-                <p className="projectText">This web app was built using HTML, CSS and vanilla JavaScript</p>
+                <p className="projectText">This web app was built using HTML, CSS and vanilla JavaScript.</p>
                 <p className="projectText">Test your memory skills - uncover all the tiles to win!</p>
             </div>
             <div className="normalButtonContainer">

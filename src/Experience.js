@@ -45,7 +45,7 @@ function Experience({buttonClick}) {
                     </div>
                     <div className="thirdTimelineSection timelineSection">
                         <img src={gymsharkLogo} className="timelineIcon" />
-                        <p className="timelineText">After 1 year working in the distribution centre, I was promoted and began working as a logistics link for the brand team in the head office. In this role I built up many professional skills and met a lot of inspirational people.</p>     
+                        <p className="timelineText">After 1 year of working in the distribution centre, I was promoted and began working as a logistics link for the brand team in the head office. In this role, I built up many professional skills and met a lot of inspirational people.</p>     
                     </div>
                     <div className="fourthTimelineSection timelineSection">
                         <img src={justitLogo} className="timelineIcon" />

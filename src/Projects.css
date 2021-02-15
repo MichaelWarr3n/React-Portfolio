@@ -135,7 +135,7 @@
 }
 
 .projectScreenshot {
-    width: 80%;
+    height: 80%;
 }
 
 @media screen and (max-width: 960px) {
@@ -152,6 +152,11 @@
 
     .projectText {
         font-size: 12px;
+    }
+
+    .projectScreenshot {
+        height: auto;
+        width: 80%;
     }
 
 }
