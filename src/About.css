@@ -1,23 +1,27 @@
 .aboutPage {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .aboutTextContainer {
     height: 100%;
-    width: auto;
+    width: 60%;
     display: flex;
     justify-content: center;
 }
 
 .imageContainer {
     height: 100%;
-    width: auto;
+    width: 40%;
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .imageMe {
     width: auto;
-    height: 100%;
+    height: auto;
 }
 
 .aboutTextSection {
@@ -48,6 +52,7 @@
 
     .aboutPage{
         flex-direction: column;
+        justify-content: center;
     }
 
     .imageContainer {
