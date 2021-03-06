@@ -1,6 +1,5 @@
 import './About.css';
 import React from 'react';
-import me from './smart-picture.jpg';
 import { Link } from 'react-router-dom';
 import Pdf from './MJW-CV.pdf';
 
@@ -8,9 +7,7 @@ function About({buttonClick}) {
 
     return (
         <div className="page aboutPage">
-            <div className="imageContainer">
-                <img src={me} className="imageMe" />
-            </div>
+            <div className="imageContainer"></div>
             <div className="aboutTextContainer">
                 <span className="aboutTextSection">
                     <p className="aboutText">I have always had a spark for problem-solving and a curiosity for computer technology, taking a screwdriver to PC towers and laptops to see how they work from a young age. As I have matured my interest in computer technology led to becoming a hobbyist software developer. 
