@@ -21,7 +21,7 @@ function Navbar(props) {
 
     return (
         <nav>
-            <Link onClick={() => handleBothNavClick('home')} style={{ textDecoration: 'none', color: 'black'}} to='/React-Portfolio'>
+            <Link onClick={() => handleBothNavClick('home')} style={{ textDecoration: 'none', color: 'black'}} to='/'>
                 <div className="logo">
                     <h1 className="logoText bold">WARREN</h1>
                 </div>
@@ -30,12 +30,12 @@ function Navbar(props) {
                 <FontAwesomeIcon style={{color: 'white'}} icon={navClick ? faTimes : faBars} />
             </div>
             <ul className={navClick ? "navOptions activeNav" : "navOptions"}>
-                <Link style={navStyle} onClick={() => handleBothNavClick('home')} className={(props.activeTab === 'home') ? 'active navOption' : 'notActive navOption'} to='/React-Portfolio'><li>HOME</li></Link>
-                <Link style={navStyle} onClick={() => handleBothNavClick('about')} className={(props.activeTab === 'about') ? 'active navOption' : 'notActive navOption'} to='/React-Portfolio/about'><li>ABOUT</li></Link>
-                <Link style={navStyle} onClick={() => handleBothNavClick('skills')} className={(props.activeTab === 'skills') ? 'active navOption' : 'notActive navOption'} to='/React-Portfolio/skills'><li>SKILLS</li></Link>
-                <Link style={navStyle} onClick={() => handleBothNavClick('projects')} className={(props.activeTab === 'projects') ? 'active navOption' : 'notActive navOption'} to='/React-Portfolio/projects/memory-game'><li>PROJECTS</li></Link>
-                <Link style={navStyle} onClick={() => handleBothNavClick('experience')} className={(props.activeTab === 'experience') ? 'active navOption' : 'notActive navOption'} to='/React-Portfolio/experience'><li>EXPERIENCE</li></Link>
-                <Link style={navStyle} onClick={() => handleBothNavClick('contact')} className={(props.activeTab === 'contact') ? 'active navOption' : 'notActive navOption'} to='/React-Portfolio/contact'><li>CONTACT</li></Link>
+                <Link style={navStyle} onClick={() => handleBothNavClick('home')} className={(props.activeTab === 'home') ? 'active navOption' : 'notActive navOption'} to='/'><li>HOME</li></Link>
+                <Link style={navStyle} onClick={() => handleBothNavClick('about')} className={(props.activeTab === 'about') ? 'active navOption' : 'notActive navOption'} to='/about'><li>ABOUT</li></Link>
+                <Link style={navStyle} onClick={() => handleBothNavClick('skills')} className={(props.activeTab === 'skills') ? 'active navOption' : 'notActive navOption'} to='/skills'><li>SKILLS</li></Link>
+                <Link style={navStyle} onClick={() => handleBothNavClick('projects')} className={(props.activeTab === 'projects') ? 'active navOption' : 'notActive navOption'} to='/projects/memory-game'><li>PROJECTS</li></Link>
+                <Link style={navStyle} onClick={() => handleBothNavClick('experience')} className={(props.activeTab === 'experience') ? 'active navOption' : 'notActive navOption'} to='/experience'><li>EXPERIENCE</li></Link>
+                <Link style={navStyle} onClick={() => handleBothNavClick('contact')} className={(props.activeTab === 'contact') ? 'active navOption' : 'notActive navOption'} to='/contact'><li>CONTACT</li></Link>
             </ul>
         </nav>
     );

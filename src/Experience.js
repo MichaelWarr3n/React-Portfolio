@@ -52,7 +52,7 @@ function Experience({buttonClick}) {
                         <p className="timelineText">After a lot of planning, I left my role at Gymshark to take some time out travelling in South America, before starting a self-funded software development course with Just IT. As I build my skill set, my excitement to move into the sector only grows.</p>
                     </div>
                 </div>
-                <Link to='/React-Portfolio/contact' style={{ textDecoration: 'none' }}><div className="fadeButton fadeButtonExperienceMobile bold" onClick={() => buttonClick('contact')}> Contact me &gt; </div></Link>
+                <Link to='/contact' style={{ textDecoration: 'none' }}><div className="fadeButton fadeButtonExperienceMobile bold" onClick={() => buttonClick('contact')}> Contact me &gt; </div></Link>
             </div>
         </div>
     );

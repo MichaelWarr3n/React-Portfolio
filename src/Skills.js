@@ -58,7 +58,7 @@ function Skills({buttonClick}) {
                     </div>
                 </span>
             </div>
-            <Link to='/React-Portfolio/projects/memory-game' style={{ textDecoration: 'none' }}>
+            <Link to='/projects/memory-game' style={{ textDecoration: 'none' }}>
                 <div className="fadeButton fadeButtonSkills bold" onClick={() => buttonClick('projects')}> Projects &gt; </div>
             </Link>
         </div>

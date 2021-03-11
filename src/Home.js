@@ -16,7 +16,7 @@ function Home({buttonClick}) {
                     </h1>
                 </div>
             </div>
-            <Link to='/React-Portfolio/about' style={{ textDecoration: 'none' }}><div className="fadeButton fadeButtonHome bold" onClick={() => buttonClick('about')}> About me &gt; </div></Link>
+            <Link to='/about' style={{ textDecoration: 'none' }}><div className="fadeButton fadeButtonHome bold" onClick={() => buttonClick('about')}> About me &gt; </div></Link>
         </div>
     );
 }
